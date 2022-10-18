@@ -1,0 +1,67 @@
+ body{
+  /* impostazione sfondo  */
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+/* usato per centrere titolo e logo */
+header{
+  text-align: center;
+}
+
+/* classe del div */
+.contenitore{
+  width: 1000px;
+  padding: 60px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  box-sizing: border-box;
+}
+/* testo dei monopattini bianco + spazio*/
+div.testo{
+  color: white;
+  margin-top: 30px;
+  line-height: 1.4;
+}
+
+/* modifica del logo */
+.logo{
+  width: 200px;
+}
+/* colore del titolo iniziale */
+#titolo{
+  color: rgb(0,221,0);
+}
+
+/* colore della sezione del NAV */
+div.menu{
+  background-color: rgb(0,221,0);
+  text-align: center;
+  padding: 10px;
+}
+/* impostazione per la scelta del monopattino */
+section > strong{
+  font-size: 25px;
+}
+
+.freccia:after{
+  content: "\27FC"
+}
+
+.carica-gino{
+  color: orange;
+  background-color: orange;
+  margin-right: 65%;
+}
+
+.carica-mike{
+  color: green;
+  background-color: green;
+  margin-right: 40%;
+}
+
+.carica-fede{
+  color: red;
+  background-color: red;
+  margin-right: 80%;
+}
